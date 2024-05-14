@@ -8,7 +8,6 @@ const User_Details_Model=require('./Models/User_Details_Model')
 const NotesModel=require('./Models/NoteDetailsModel')
 const TrashNotesModel=require('./Models/TrashNote_Model')
 const FavNotesModel=require('./Models/FavNotesmodel')
-const { use } = require('react')
 app.use(cors())
 app.use(bodyParser.json({limit: '25mb'}));
 app.use(express.urlencoded({limit: '25mb', extended: true}));
